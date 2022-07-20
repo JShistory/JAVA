@@ -1,0 +1,9 @@
+Stack
+Stack<Integer> stack = new Stack<>();
+stack.push(1) // 값 추가
+stack.pop() // 값 삭제
+stack.clear() // 값 전체삭제
+stack.size() // 크기 반환
+stack.empty() // 비어있으면 true, 아니면 false
+stack.contains(1) // 1을 포함하고 있으면 true, 아니면 false
+stack.peek() // Stack top 출력 (제거 X), 비어있으면 null 반환
